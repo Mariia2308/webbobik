@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bogi learns HTML</title>
+    <meta charset="utf-8" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,
+    wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/modern-normalize.min.css" >
+    <link rel="stylesheet" href="css\styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+</head>
+
+<body >
+  <section class = "sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Way To A Fully Working System</h1>
+  </section>  
+
+<!---------blog page content---------------->
+
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+          <img src="images/goal.png">
+          <h2>This is unexpected</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+             Vel nemo nam explicabo placeat laborum, aspernatur unde obcaecati!
+             Natus tenetur voluptatum, eveniet quas earum vitae recusandae quos
+              architecto nobis dolor quam.
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Vel nemo nam explicabo placeat laborum, aspernatur unde obcaecati!
+            Natus tenetur voluptatum, eveniet quas earum vitae recusandae quos
+             architecto nobis dolor quam.
+         </p>          
+        </div>
+        <div class="blog-right">
+
+        </div>
+    </div>
+</section>
+
+
+<!---------Footer---------------->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, corporis fuga officia quae id atque quod, voluptates, sed maxime iure quos pariatur corrupti magni dolorem facilis nisi quo ut inventore!</p>
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+  </div>
+  <p>Made with <i class="fa fa-love"></i> by Bobik</p>
+</section>
+
+
+  <!-------JavaScript for Toggle Menu ----------------->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+</script>
+
+</body>
+</html>
