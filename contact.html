@@ -19,7 +19,7 @@
 <body >
   <section class = "sub-header">
     <nav>
-      <a href="index.html"><img src="images/logo.png"></a>
+      <a href="index.html"><img src="images/logo_randlos.png"></a>
       <div class="nav-links" id="navLinks">
         <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
@@ -58,11 +58,11 @@
       </div>
     </div>
     <div class="contact-col">
-        <form action="">
-          <input type="text" placeholder="Enter your name" required>
-          <input type="text" placeholder="Enter your e-mailadress" required>
-          <input type="text" placeholder="Enter your subject" required>
-          <textarea rows="8" placeholder="message" required></textarea>
+        <form action="form-handler.php" method="post">
+          <input type="text" name="name" placeholder="Enter your name" required>
+          <input type="email" name="email" placeholder="Enter your e-mailadress" required>
+          <input type="text" name="subject" placeholder="Enter your subject" required>
+          <textarea rows="8" name="message" placeholder="message" required></textarea>
           <button type="submit" class="hero-btn red-btn">Send Message</button>
         </form>
 
