@@ -131,9 +131,7 @@ nav .fa{
         padding: 30px;
     }
 
-    .patsan{
-        margin-left: 40px;
-    }
+
 }
 
 @media(min-width: 780px){
@@ -349,9 +347,8 @@ h3{
 .testimonials-col{
     flex-basis: 44%;
     border-radius: 10px;
-    text-align: left;
+ 
     justify-content: center;
-    padding: 25px;
     cursor: pointer;
     display: flex;
 }
@@ -556,6 +553,8 @@ h3{
     .sub-header h1{
         font-size: 24px;
     }
+
+
 }
 
 /*---contact us page----*/
@@ -695,7 +694,7 @@ h3{
 .patsan{
 
     border-radius: 10%;
-    width: 400px;
+    width: 300px;
     margin-bottom: 30px;
 }
 
